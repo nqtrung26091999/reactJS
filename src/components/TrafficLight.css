@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.red {
+    background-color: red;
+    height: 64px;
+    width: 64px;
+    opacity: .2;
+    border-radius: 50%;
+}
+
+.orange {
+    background-color: orange;
+    height: 64px;
+    border-radius: 50%;
+    width: 64px;
+    opacity: .2;
+}
+
+.green {
+    background-color: green;
+    height: 64px;
+    border-radius: 50%;
+    opacity: .2;
+    width: 64px;
+}
+
+.active {
+    opacity: 1;
+}
